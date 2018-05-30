@@ -1,0 +1,96 @@
+PODS:
+  - Braintree (4.8.1):
+    - Braintree/Card (= 4.8.1)
+    - Braintree/Core (= 4.8.1)
+    - Braintree/PayPal (= 4.8.1)
+    - Braintree/UI (= 4.8.1)
+  - Braintree/Card (4.8.1):
+    - Braintree/Core
+  - Braintree/Core (4.8.1)
+  - Braintree/DataCollector (4.8.1):
+    - Braintree/Core
+  - Braintree/PayPal (4.8.1):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.8.1):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.8.1):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.8.1)
+  - Braintree/UI (4.8.1):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/UnionPay (4.8.1):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (5.2.0):
+    - BraintreeDropIn/DropIn (= 5.2.0)
+  - BraintreeDropIn/DropIn (5.2.0):
+    - Braintree/Card (~> 4.0)
+    - Braintree/Core (~> 4.0)
+    - Braintree/UnionPay (~> 4.0)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (5.2.0)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.2.0):
+    - GoogleMaps (= 2.2.0)
+    - GooglePlaces (= 2.2.0)
+  - GooglePlaces (2.2.0):
+    - GoogleMaps/Base (= 2.2.0)
+  - JTAppleCalendar (7.0.2)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - TTRangeSlider (1.0.5)
+
+DEPENDENCIES:
+  - Braintree
+  - Braintree/DataCollector
+  - BraintreeDropIn
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - JTAppleCalendar (~> 7.0)
+  - MMDrawerController (~> 0.5.7)
+  - TTRangeSlider (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Braintree
+    - BraintreeDropIn
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - JTAppleCalendar
+    - MMDrawerController
+    - TTRangeSlider
+
+SPEC CHECKSUMS:
+  Braintree: 9e63eeb60d34f54fa1aa8f3d75fe3976927c06d5
+  BraintreeDropIn: f4278c4eafc1395d06ce79652fa1658d2b5ab815
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GooglePlacePicker: 345b1aabd42c9d6d9bf2369c1bae1234d903e764
+  GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
+  JTAppleCalendar: c14685634064ef67a68209548ff3443208af48a3
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+  TTRangeSlider: 2f2ce4a33b32bb323c6575b9f5161c4664459c58
+
+PODFILE CHECKSUM: 13977609d4103da8c76b6c344e9faaa080083c24
+
+COCOAPODS: 1.5.2
