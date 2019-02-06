@@ -1,4 +1,4 @@
-# ParkingApp
+# iOS Shared Parking App
 
 iOS app to facilitate parking arrangements between property owners and drivers. The app is integrated with Google Maps, Google Places, and Braintree. Not all functionality has been uploaded to this repository and all API keys and server endpoints have been removed.
 
